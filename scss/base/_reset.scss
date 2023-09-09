@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
-
 }
 
-ol, ul{
+ol,
+ul {
     list-style: none;
 }
 
-img{
+img {
     display: block;
 }
 
-/* _________________________________________________________________________ */
+body{
+    background-color: grey;
+}
