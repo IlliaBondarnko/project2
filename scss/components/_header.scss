@@ -30,7 +30,7 @@
     cursor: pointer;
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.089);
 
     // background: green;
     // width: auto;
@@ -82,7 +82,7 @@
 }
 
 nav {
-    background: rgb(146, 146, 146);
+    background: rgba(146, 146, 146, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -94,13 +94,13 @@ nav {
     transition: all 600ms cubic-bezier(.62, .04, .3, 1.56);
     transition-delay: 100ms;
 
-    ul {
+    .navlist {
         margin: 0;
         position: absolute;
         top: 30%;
         left: 40%;
 
-        li {
+        .navlistitem {
             list-style: none;
             font-size: 24px;
             color: #fff;
@@ -119,25 +119,6 @@ nav.show {
     // animation-fill-mode: forwards;
     width: 50%;
     // transform:scale(1);
-    opacity: 1;
-}
-
-
-.dark-blue {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #7e995a;
-    height: 100%;
-    width: 0%;
-    transition: all 500ms cubic-bezier(.62, .04, .3, 1.8);
-    transition-delay: 50ms;
-    z-index: 5;
-    opacity: 1;
-}
-
-.dark-blue.slide {
-    width: 50%;
     opacity: 1;
 }
 
@@ -168,6 +149,43 @@ nav.show {
 
 header{
     background-image: url(../../assets/imgs/x1/Bitmap.webp);
-    background-size: auto;
     background-repeat: no-repeat;
+    background-position: 1;
+    width: 1440px;
+    height: 815px;
+}
+
+.txtanim{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+      
+}
+
+h1{
+    color: #FFF;
+        font-family: "Poppins";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 74px;
+        /* 123.333% */
+}
+
+.gitlink{
+    color: #FFD723;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    &:hover{
+            color: rgb(65, 65, 65);
+            font-size: larger;
+            cursor: pointer;
+    }
 }
