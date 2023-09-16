@@ -1,0 +1,22 @@
+.our_partners{
+    padding-left: 70;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 170px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 0;
+    bottom: -113px;
+}
+
+.partnerslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.partnerlistitem:not(:last-child){
+    margin-right: 66px;
+}

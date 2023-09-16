@@ -22,6 +22,29 @@ body {
   margin: 0 auto;
 }
 
+.our_partners {
+  padding-left: 70;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 170px;
+  border-radius: 2px;
+  background: #FFF;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  right: 0;
+  bottom: -113px;
+}
+
+.partnerslist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.partnerlistitem:not(:last-child) {
+  margin-right: 66px;
+}
+
 .icon-1,
 .icon-2,
 .icon-3 {
@@ -141,11 +164,16 @@ nav.show {
 }
 
 header {
+  position: relative;
   background-image: url(../../assets/imgs/x1/Bitmap.webp);
   background-repeat: no-repeat;
-  background-position: 1;
-  width: 1440px;
-  height: 815px;
+  background-size: cover;
+  padding-bottom: 300px;
+  padding-top: 23px;
+}
+
+.maintext {
+  margin-bottom: 100px;
 }
 
 .txtanim {
@@ -155,6 +183,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 45px;
 }
 
 h1 {
@@ -164,6 +193,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 74px;
+  margin-bottom: 24px;
   /* 123.333% */
 }
 
@@ -175,9 +205,20 @@ h1 {
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
+  transition: all 0.3s linear;
 }
 .gitlink:hover {
   color: rgb(65, 65, 65);
   font-size: larger;
   cursor: pointer;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logoheader {
+  margin-bottom: 130px;
 }

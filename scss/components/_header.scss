@@ -148,11 +148,16 @@ nav.show {
 }
 
 header{
+    position: relative;
     background-image: url(../../assets/imgs/x1/Bitmap.webp);
     background-repeat: no-repeat;
-    background-position: 1;
-    width: 1440px;
-    height: 815px;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 23px;
+}
+
+.maintext {
+    margin-bottom: 100px;
 }
 
 .txtanim{
@@ -162,6 +167,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 45px;
       
 }
 
@@ -172,6 +178,7 @@ h1{
         font-style: normal;
         font-weight: 700;
         line-height: 74px;
+        margin-bottom: 24px;
         /* 123.333% */
 }
 
@@ -183,9 +190,20 @@ h1{
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+    transition: all 0.3s linear;
     &:hover{
             color: rgb(65, 65, 65);
             font-size: larger;
             cursor: pointer;
     }
+}
+
+.container{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logoheader{
+    margin-bottom: 130px;
 }
