@@ -32,7 +32,7 @@ body {
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
   position: absolute;
   right: 0;
-  bottom: -113px;
+  bottom: -140px;
 }
 
 .partnerslist {
@@ -207,10 +207,9 @@ h1 {
   text-decoration-line: underline;
   transition: all 0.3s linear;
 }
-.gitlink:hover {
-  color: rgb(65, 65, 65);
-  font-size: larger;
-  cursor: pointer;
+
+.hover_yellow:hover {
+  color: #FFD723;
 }
 
 .container {
@@ -221,4 +220,41 @@ h1 {
 
 .logoheader {
   margin-bottom: 130px;
+}
+
+.section1 {
+  margin-top: 235px;
+}
+
+.textcont1 {
+  width: 475px;
+}
+
+.otherheadings {
+  margin-bottom: 35px;
+  color: #4D533C;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  /* 127.778% */
+}
+
+.sometext {
+  margin-bottom: 35px;
+  color: rgba(33, 56, 66, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hover_grey:hover {
+  color: #D4D6D4;
+}
+
+.hover_yellow {
+  color: #D4D6D4;
 }

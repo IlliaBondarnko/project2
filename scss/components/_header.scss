@@ -191,12 +191,12 @@ h1{
     line-height: normal;
     text-decoration-line: underline;
     transition: all 0.3s linear;
-    &:hover{
-            color: rgb(65, 65, 65);
-            font-size: larger;
-            cursor: pointer;
-    }
 }
+
+.hover_yellow:hover{
+    color: #FFD723;
+}
+
 
 .container{
     width: 1140px;
