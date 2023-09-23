@@ -1,0 +1,50 @@
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_section{
+    padding-top: 150px;
+}
+
+.flex_heading{
+    color: #4D533C;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        width: 475px;
+        margin-bottom: 25px;
+
+}
+
+.p_heading{
+    color: rgba(33, 56, 66, 0.60);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        width: 421px;
+}
+
+.marginp{
+    margin-bottom: 25px;
+}
+
+.divcont{
+    margin-left: 100px;
+}
+
+.margina{
+    display: block;
+    margin-top: 90px;
+}
+
+.flexreverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
